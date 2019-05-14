@@ -14,8 +14,6 @@ import org.springframework.web.servlet.DispatcherServlet;
 @Configuration
 public class ApplicationConfig implements WebApplicationInitializer {
 
-    
-
     @Override
     public void onStartup(ServletContext sc) throws ServletException {
          
